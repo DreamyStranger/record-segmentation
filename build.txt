@@ -2,6 +2,7 @@ python -m venv .venv
 .venv\Scripts\activate
 python -m pip install --upgrade pip
 python -m pip install build twine
+pip install -e .[dev]
 rmdir /s /q dist
 rmdir /s /q build
 rmdir /s /q src\*.egg-info
