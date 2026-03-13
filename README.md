@@ -3,6 +3,7 @@
 [![CI](https://github.com/DreamyStranger/record-segmentation/actions/workflows/ci.yml/badge.svg)](https://github.com/DreamyStranger/record-segmentation/actions/workflows/ci.yml)
 [![Python Versions](https://img.shields.io/pypi/pyversions/record-segmentation.svg)](https://pypi.org/project/record-segmentation/)
 [![License](https://img.shields.io/github/license/DreamyStranger/record-segmentation.svg)](LICENSE)
+![Tests](https://img.shields.io/badge/tests-pytest-blue)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)]()
 
 **Streaming record-boundary detection and segmentation for line-oriented text.**
