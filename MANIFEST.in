@@ -1,0 +1,19 @@
+# Include license and README
+include LICENSE
+include README.md
+
+# Include project configuration
+include pyproject.toml
+
+# Include typing marker
+recursive-include src/record_segmentation py.typed
+
+# Include examples and scripts
+recursive-include scripts *.py
+
+# Include tests in sdist (optional but good practice)
+recursive-include tests *.py
+
+# Exclude cache and compiled files
+global-exclude __pycache__
+global-exclude *.py[cod]
